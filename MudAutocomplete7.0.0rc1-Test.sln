@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudAutocomplete7.0.0rc1-Test", "MudAutocomplete7.0.0rc1-Test\MudAutocomplete7.0.0rc1-Test.csproj", "{D45B5409-6B39-4B59-BFAF-2990DAECE1B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45B5409-6B39-4B59-BFAF-2990DAECE1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45B5409-6B39-4B59-BFAF-2990DAECE1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45B5409-6B39-4B59-BFAF-2990DAECE1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45B5409-6B39-4B59-BFAF-2990DAECE1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7623D9D4-E72D-4A61-86CD-84FB69F258DF}
+	EndGlobalSection
+EndGlobal
