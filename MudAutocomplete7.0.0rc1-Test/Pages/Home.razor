@@ -1,7 +1,15 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<MudGrid Spacing="2">
+    <MudItem xs="12" Class="d-flex flex-grow-1 gap-1 align-end">
+        <MudAutocomplete T="string" @bind-Value="Query" SearchFunc="Search" Immediate="true"
+                         @bind-Value:after="QuerySelected" Label="Selected query" Strict="false"
+                         Placeholder="Search query..." Class="flex-auto d-flex">
+            <NoItemsTemplate>
+                <MudText Typo="Typo.caption">No queries found</MudText>
+            </NoItemsTemplate>
+        </MudAutocomplete>
+    </MudItem>
+</MudGrid>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+    
